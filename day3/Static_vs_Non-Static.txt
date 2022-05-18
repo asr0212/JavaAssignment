@@ -1,0 +1,9 @@
+Q) What is the difference between the static and the non-static variables of a class explain it with an example?
+
+ANS => non-static variables not directly access by static method or main method.
+       while static variables are directly access by static method or main method.
+
+       static variables are loaded to RAM at compile time.
+       but non-static variables are not loaded to RAM at that time,it,s only loaded when a object is created.
+
+       
