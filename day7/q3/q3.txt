@@ -1,0 +1,6 @@
+Q3 ) use of "this" ans "super" keyword in java.
+Ans=> "this" keyword points to current object of class.
+      "this keyword use mainly in java bean classes for
+      using private vaiable in same class methode.
+      "super" keyword points to parent calss object.
+      "super" use mostly for access parent class members.
