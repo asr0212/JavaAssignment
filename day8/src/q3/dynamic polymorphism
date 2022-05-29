@@ -1,0 +1,6 @@
+Q3) Explain dynamic polymorphism ?
+
+Ans=> dynamic polymorphism is basically method overriding it is support by inheritance.
+      when we write method in parent class we also create same signature method in child class and it's bassically 
+      overriding and overridden method have higher priority betwwen two.
+      like when we create chid class object of parent type than overridden method in child got executed by this object. 

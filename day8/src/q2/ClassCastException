@@ -1,0 +1,4 @@
+Q2) Explain ClassCastException with the help of the example.
+
+Ans=> whenever we create a parent class object from parent class and we downcast this object for child class ,
+      it's give exception at runtime. 
