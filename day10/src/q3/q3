@@ -1,0 +1,30 @@
+Q3) Explain abstract class and interface with an example.
+
+Ans=> abstract class is a partially implemented class in which we can  use abstract method(method without body) abstract class must be extended by another 
+      class.
+      without extending abstract class is meaning less.
+      we can create abstract class by abstract keyword.
+      in this abstract class we can also use implemented method.
+      eg:- 
+          abstract class A{
+              int x;
+               abstract method1();
+               abstract method2();
+               method3(){
+                  System.out.println("i am in method3 of A");
+               }
+          } 
+          
+      interface is a class like structure in java which can be created by interface keyword. it is a fully unimplemented structure, which act like a 
+      abstract class with all abstract method.
+      but in interface all method is by default public abstract we don,t have to define that.
+      in child class we have to use implements keyword rather than extends
+      eg:- 
+          interface B {
+             method1(); //by default public abstract
+             method2();
+          }
+          
+          class C implements B{
+             B obj = new C();
+          }
